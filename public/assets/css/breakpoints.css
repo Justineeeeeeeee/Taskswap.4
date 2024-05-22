@@ -1,0 +1,1219 @@
+
+/*RESPONSIVENESS*/
+@media screen and (max-width: 2000px){
+  #spinModal .modal-dialog
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: -7%;
+    margin-top: -24%;   
+    max-width: 500%;
+    height: 500% !important; 
+  }
+  #spinModal .modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    width: 500%;
+    height: 500%;
+  }
+  #spinModal .loading-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 70%;
+      margin-right: 92%;
+       position: relative;
+       font-size: 48px;
+    }
+  
+  .spinContainer{
+      position: absolute;
+      display:flex;
+      width: 600px;
+      height: 600px;
+      justify-content: center;
+      align-items: center;
+      margin-left: 16.5%;
+      margin-top: 12%;
+    }
+    #spinModal .btn-close{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     margin-left:  27%;
+     margin-bottom: 74%;
+    }
+    .spinContainer .spinBtn{ /*Spinbutton*/
+      position: absolute;
+      width: 90px;
+      height: 90px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+      font-weight: 800;
+      margin-left: 14%;
+      margin-top: 14%;
+    }
+    #modalCongrats .modal-content{
+      justify-content: center;
+      position: absolute;
+      align-items: center;
+      margin-left: 10%;
+      width: 25% !important;
+      margin-top: 33%;
+      font-size: 16px;
+    }
+    #modalSorry .modal-content{
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      margin-left: 10%;
+      width: 25% !important;
+      margin-top: 33%;
+      font-size: 16px;
+    }
+    #modalCongrats .close{
+      position: absolute;
+      margin-left: 51%;
+    }
+    #modalSorry .close{
+      position: absolute;
+      margin-left: 51%;
+    }
+    #spinAgainModal .modal-content{
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      margin-left: 10%;
+      width: 25% !important;
+      margin-top: 33%;
+      font-size: 16px;
+    }
+    #spinAgainModal .close{
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      margin-left: 51%;
+    }
+    .confetti{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-top: 5%;
+      margin-left: 0%;
+    }
+
+  #findModal .modal-dialog
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: -7%;
+    margin-top: -24%;   
+    max-width: 500%;
+    height: 500% !important; 
+  }
+  #findModal .modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    width: 500%;
+    height: 500%;
+  }
+  #findModal .btn-close{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     margin-left:  27%;
+     margin-bottom: 74%;
+    }
+  #findModal .find-loading{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 70%;
+      margin-right: 92%;
+       position: relative;
+       font-size: 48px;
+    }
+    .token-wrapper{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 16.5%;
+      margin-top: 17%;
+    }
+  
+    #toknModal .modal-content{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      margin-left: 28%;
+      margin-top: 15%;
+    }
+  #completeModal .modal-dialog
+   {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10.5%;
+  margin-left: 28%;
+   }
+
+}
+
+@media screen and (max-width: 1900px){
+  #spinModal .modal-dialog
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: -8.5%;
+    margin-top: -25.3%;   
+    max-width: 500%;
+    height: 500% !important; 
+  }
+
+.spinContainer{
+  position: absolute;
+  display:flex;
+  width: 600px;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16.5%;
+  margin-top: 12%;
+}
+#modalCongrats .modal-content{
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  margin-left: 10%;
+  width: 25% !important;
+  margin-top: 35%;
+  font-size: 16px;
+}
+#modalSorry .modal-content{
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: 10%;
+  width: 25% !important;
+  margin-top: 35%;
+  font-size: 16px;
+}
+.confetti{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 6%;
+  margin-left: 0%;
+}
+#spinAgainModal .modal-content{
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: 10%;
+  width: 25% !important;
+  margin-top: 35%;
+  font-size: 16px;
+}
+#findModal .modal-dialog
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-left: -8.5%;
+  margin-top: -25.3%;  
+  max-width: 500%;
+  height: 500% !important; 
+}
+#toknModal .modal-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-left: 28%;
+  margin-top: 7%;
+}
+#completeModal .modal-dialog
+   {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 11%;
+  margin-left: 28%;
+   }
+}
+
+  /*RESPONSIVENESS*/
+@media screen and (max-width: 1865px){
+  #spinModal .modal-dialog
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: -9%;
+    margin-top: -26%;    
+    max-width: 500%;
+    height: 500% !important; 
+  }
+  #spinModal .modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    width: 500%;
+    height: 500%;
+  }
+  #spinModal .loading-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 70%;
+      margin-right: 92%;
+       position: relative;
+       font-size: 48px;
+    }
+  
+  .spinContainer{
+      position: absolute;
+      display:flex;
+      width: 600px;
+      height: 600px;
+      justify-content: center;
+      align-items: center;
+      margin-left: 16.5%;
+      margin-top: 13.2%;
+    }
+    #spinModal .btn-close{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     margin-left:  27%;
+     margin-bottom: 74%;
+    }
+    .spinContainer .spinBtn{ /*Spinbutton*/
+      position: absolute;
+      width: 90px;
+      height: 90px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+      font-weight: 800;
+      margin-left: 14%;
+      margin-top: 14%;
+    }
+    #modalCongrats .modal-content{
+      justify-content: center;
+      position: absolute;
+      align-items: center;
+      width: 25% !important;
+      margin-top: 35%;
+      margin-left: 9%;
+      font-size: 16px;
+    }
+    #modalSorry .modal-content{
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      width: 25% !important;
+      margin-top: 35%;
+      margin-left: 9%;
+      font-size: 16px;
+    }
+    #modalCongrats .close{
+      position: absolute;
+      margin-left: 51%;
+    }
+    #modalSorry .close{
+      position: absolute;
+      margin-left: 51%;
+    }
+    
+    #spinAgainModal .modal-content{
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      margin-top: 35%;
+      margin-left: 9%;
+      font-size: 16px;
+    }
+    #spinAgainModal .close{
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      margin-left: 51%;
+    }
+    .confetti{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-top: 6%;
+      margin-left: 0%;
+    }
+
+  #findModal .modal-dialog
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: -9%;
+    margin-top: -26%;   
+    max-width: 500%;
+    height: 500% !important; 
+  }
+  #findModal .modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    width: 500%;
+    height: 500%;
+  }
+  #findModal .btn-close{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     margin-left:  27%;
+     margin-bottom: 74%;
+    }
+  #findModal .find-loading{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 70%;
+      margin-right: 92%;
+       position: relative;
+       font-size: 48px;
+    }
+    .token-wrapper{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 16.5%;
+      margin-top: 17%;
+    }
+  
+    #toknModal .modal-content{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      margin-left: 28%;
+      margin-top: 3%;
+    }
+  #completeModal .modal-dialog
+   {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 11.5%;
+  margin-left: 28%;
+   }
+
+}
+
+@media screen and (max-width: 1800px){
+  #spinModal .modal-dialog
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: -10.2%;
+    margin-top: -26%;    
+    max-width: 500%;
+    height: 500% !important; 
+  }
+  #modalCongrats .modal-content{
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    width: 25% !important;
+    margin-top: 37%;
+    margin-left: 9%;
+    font-size: 16px;
+  }
+  #modalSorry .modal-content{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 25% !important;
+    margin-top: 37%;
+    margin-left: 9%;
+    font-size: 16px;
+  }
+  #spinAgainModal .modal-content{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 37%;
+    margin-left: 9%;
+    font-size: 16px;
+  }
+  #findModal .modal-dialog
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: -10.2%;
+    margin-top: -26%;   
+    max-width: 500%;
+    height: 500% !important; 
+  }
+  #toknModal .modal-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 20.5%;
+    margin-top: 3%;
+  }
+  .confetti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 6%;
+    margin-left: 2%;
+  } 
+}
+
+@media screen and (max-width: 1750px){
+  #spinModal .modal-dialog
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: -11%;
+    margin-top: -27%;      
+    max-width: 500%;
+    height: 500% !important; 
+  }
+  
+  #modalCongrats .modal-content{
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    margin-left: 9%;
+    width: 25% !important;
+    margin-top: 37%;
+    font-size: 16px;
+  }
+  #modalSorry .modal-content{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 9%;
+    width: 25% !important;
+    margin-top: 37%;
+    font-size: 16px;
+  }
+  #spinAgainModal .modal-content{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 9%;
+    width: 25% !important;
+    margin-top: 37%;
+    font-size: 16px;
+  }
+  #findModal .modal-dialog
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: -11%;
+    margin-top: -27%;   
+    max-width: 500%;
+    height: 500% !important; 
+  }
+  #toknModal .modal-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 25%;
+    margin-top: 3%;
+  }
+}
+
+@media screen and (max-width: 1700px){
+  #spinModal .modal-dialog
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: -12%;
+    margin-top: -28%;      
+    max-width: 500%;
+    height: 500% !important; 
+  }
+
+  #modalCongrats .modal-content{
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    margin-left: 10%;
+    width: 25% !important;
+    margin-top: 38%;
+    font-size: 16px;
+  }
+  #modalSorry .modal-content{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 10%;
+    width: 25% !important;
+    margin-top: 38%;
+    font-size: 16px;
+  }
+
+  #spinAgainModal .modal-content{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 10%;
+    width: 25% !important;
+    margin-top: 38%;
+    font-size: 16px;
+  }
+  #findModal .modal-dialog
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: -12%;
+    margin-top: -28%;   
+    max-width: 500%;
+    height: 500% !important; 
+  }
+  #toknModal .modal-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 12%;
+    margin-top: 3%;
+  }
+}
+
+@media screen and (max-width: 1650px){
+  #spinModal .modal-dialog
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: -12.5%;
+    margin-top: -29%;      
+    max-width: 500%;
+    height: 500% !important; 
+  }
+  #modalCongrats .modal-content{
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    margin-left: 10%;
+    width: 25% !important;
+    margin-top: 40%;
+    font-size: 16px;
+  }
+  #modalSorry .modal-content{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 10%;
+    width: 25% !important;
+    margin-top: 40%;
+    font-size: 16px;
+  }
+
+  #spinAgainModal .modal-content{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 10%;
+    width: 25% !important;
+    margin-top: 40%;
+    font-size: 16px;
+  }
+  #findModal .modal-dialog
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: -12.5%;
+    margin-top: -29%;   
+    max-width: 500%;
+    height: 500% !important; 
+  }
+  #toknModal .modal-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 7%;
+    margin-top: 3%;
+  }
+  #completeModal .modal-dialog
+   {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12%;
+  margin-left: 24.8%;
+   }
+}
+
+@media screen and (max-width: 1550px){
+  #spinModal .modal-dialog
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: -14%;
+    margin-top: -30.3%;      
+    max-width: 500%;
+    height: 500% !important; 
+  }
+  #findModal .modal-dialog
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: -14%;
+    margin-top: -30.3%;   
+    max-width: 500%;
+    height: 500% !important; 
+  }
+  #modalCongrats .modal-content{
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    margin-left: 10%;
+    width: 25% !important;
+    margin-top: 42%;
+    font-size: 16px;
+  }
+  #modalSorry .modal-content{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 10%;
+    width: 25% !important;
+    margin-top: 42%;
+    font-size: 16px;
+  }
+  #spinAgainModal .modal-content{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 10%;
+    width: 25% !important;
+    margin-top: 42%;
+    font-size: 16px;
+  }
+  #toknModal .modal-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 12%;
+    margin-top: 9%;
+  }
+  .confetti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 8%;
+    margin-left: 2%;
+  } 
+  #completeModal .modal-dialog
+   {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
+  margin-left: 24%;
+   }
+}
+
+@media screen and (max-width: 1500px){
+  #spinModal .modal-dialog
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: -16%;
+    margin-top: -31.5%;      
+    max-width: 500%;
+    height: 500% !important; 
+  }
+  #modalCongrats .modal-content{
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    margin-left: 10%;
+    width: 25% !important;
+    margin-top: 44%;
+    font-size: 16px;
+  }
+  #modalSorry .modal-content{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 10%;
+    width: 25% !important;
+    margin-top: 44%;
+    font-size: 16px;
+  }
+
+  #spinAgainModal .modal-content{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 10%;
+    width: 25% !important;
+    margin-top: 44%;
+    font-size: 16px;
+  }
+  #findModal .modal-dialog
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: -16%;
+    margin-top: -31.5%;  
+    max-width: 500%;
+    height: 500% !important; 
+  }
+  .confetti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 6%;
+    margin-left: 2%;
+  } 
+  #completeModal .modal-dialog
+   {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
+  margin-left: 21%;
+   }
+}
+
+/*PHONE DIMENSION*/
+/*BREAKPOINT*/
+
+@media only screen and (max-width:430px) {
+
+  .navbar-brand {
+    position: absolute;
+    top:0.8%;
+    left: -2%;
+}
+
+.h4 {
+    position: absolute;
+    top: 1.7%;  /*text position ni token balance*/
+    left: 28%;  /*text position ni token balance*/
+}
+.cb{
+  top: 4.5%;  /*dito position ng value ni conversion balance*/
+  left: 28%;  /*dito position ng value ni conversion balance*/
+}
+.dropdown{
+  position: fixed;
+}
+.peso{
+  position: relative;
+  text-align: center;
+  left: -5%; /*dito position ng value ni token balancess*/
+}
+.col-form-label img{
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 26%; /*dito position ni token image*/
+}
+  #spinModal .modal-dialog
+  {
+    align-items: center;
+    justify-content: center;
+    left: 31%;  /*dito ginalaw position*/
+    top: 27%;   /*dito ginalaw position*/
+    max-width: 200px;
+    height: 200px !important ;
+  }
+  #spinModal .modal-body {
+    align-items: center;
+    justify-content: center;
+    left: -13%;
+    top: -80%;
+    max-width: 350px;
+    height: 500px !important ;
+  }
+  #spinModal .loading-container{
+    align-items: center;
+    justify-content: center;
+    top: 9%; /*dito ginalaw position*/
+    left: 15%;  /*dito ginalaw position*/
+  }
+  #spinModal .btn-close{
+    align-items: center;
+    justify-content: center;
+    left: 62%;  /*dito ginalaw position*/
+    top: 2%;    /*dito ginalaw position*/
+  }
+  .spinContainer{
+    display:flex;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    left: -50%;  /*dito ginalaw position*/
+    top: 0%;     /*dito ginalaw position*/
+  }
+
+  .spinContainer .wheel .number span
+{
+  transform: rotate(30deg);
+  font-size: 1em;
+  font-weight: 700;
+  color:#fff;
+  text-shadow: 3px 5px 2px rgba(0,0,0,0.15);
+  bottom: -1.9rem;  /*dito ginalaw position*/
+  left: 1rem;       /*dito ginalaw position*/
+}
+.spinContainer .spinBtn{ /*Spinbutton*/
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  top: 49%;     /*dito ginalaw position*/
+  left: 76%;    /*dito ginalaw position*/
+  user-select: none;
+
+}
+.confetti{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 260px;
+  height: 160px !important;
+  top: 39%;   /*dito ginalaw position*/
+  left: 15%;  /*dito ginalaw position*/
+}
+#modalCongrats .modal-content {
+  align-items: center;
+  justify-content: center;
+  top: 8%;    /*dito ginalaw position*/
+  left: 15%;   /*dito ginalaw position*/
+  width: 50% !important;
+}
+
+#modalCongrats .close{
+  align-items: center;
+  justify-content: center;
+  left: 35%;    /*dito ginalaw position*/
+}
+
+#spinAgainModal .modal-content{
+  align-items: center;
+  justify-content: center;
+  top: 8%;      /*dito ginalaw position*/
+  left: 15%;    /*dito ginalaw position*/
+  font-size: 16px;
+  width: 50% !important;
+}
+#spinAgainModal .close{
+  align-items: center;
+  justify-content: center;
+  left: 35%;    /*dito ginalaw position*/
+}
+#modalSorry .modal-content {
+  align-items: center;
+  justify-content: center;
+  top: 8%;    /*dito ginalaw position*/
+  left: 17%;  /*dito ginalaw position*/
+  width: 50% !important;
+}
+#modalSorry .close{
+  align-items: center;
+  justify-content: center;
+  left: 35%;    /*dito ginalaw position*/
+}
+  #findModal .modal-dialog
+  {
+    align-items: center;
+    justify-content: center;
+    left: 38.5%;  /*dito ginalaw position*/
+    top: 46%;   /*dito ginalaw position*/
+    max-width: 200px;
+    height: 200px !important ;
+  }
+  #findModal .modal-body {
+    align-items: center;
+    justify-content: center;
+    margin-left: -27%;  
+    margin-top: -90%;   
+    max-width: 350px;
+    height: 500px !important ;
+  }
+  #findModal .find-loading{
+    align-items: center;
+    justify-content: center;
+    top: 9%; /*dito ginalaw position*/
+    left: 15%;  /*dito ginalaw position*/
+  }
+  #findModal .btn-close{
+    align-items: center;
+    justify-content: center;
+    left: 62%; /*dito ginalaw position*/
+    top: 2%;  /*dito ginalaw position*/
+  }
+  .search img{
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
+    height: 500px !important ;
+  }
+  .token-wrapper{
+    top: 57%;     /*dito ginalaw position*/
+    left: 46.9%;    /*dito ginalaw position*/
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    }
+  #toknModal .modal-dialog{
+    align-items: center;
+    justify-content: center;
+    top: 24%;   /*dito ginalaw position*/
+    left: 10%;  /*dito ginalaw position*/
+    
+  }
+  #toknModal .close{
+    align-items: center;
+    justify-content: center;
+    top: 20%;   /*dito ginalaw position*/
+    left: 5%;   /*dito ginalaw position*/
+    cursor: pointer;
+  }
+  #completeModal .modal-dialog
+  {
+    align-items: center;
+    justify-content: center;
+    left: -6%;  /*dito ginalaw position*/
+    top: 13%;   /*dito ginalaw position*/
+  }
+  #completeModal .modal-body {
+    align-items: center;
+    justify-content: center;
+    left: 1%;
+    max-width: 350px;
+  } 
+  #completeModal .rect{
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 10%;
+    top: 27%;  /*dito ginalaw position*/
+    left: 49%;  /*dito ginalaw position*/
+    }
+  #completeModal .rect p{
+    left: 4%;     /*dito ginalaw position*/
+    top: 23%;     /*dito ginalaw position*/
+    }
+
+  #completeModal .rect2{
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+      height: 10%;
+      top: 40%;     /*dito ginalaw position*/
+      left: 49%;    /*dito ginalaw position*/
+      }
+  #completeModal .rect2 p{
+      left: 4%;   /*dito ginalaw position*/
+      top: 30%;   /*dito ginalaw position*/
+      }
+
+  #completeModal .rect3{
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+      height: 10%;
+      top: 53%;     /*dito ginalaw position*/
+      left: 49%;    /*dito ginalaw position*/
+      }
+  #completeModal .rect3 p{
+      left: 4%;   /*dito ginalaw position*/
+      top: 36%;   /*dito ginalaw position*/
+      }
+
+  #completeModal .rect4{
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+      height: 10%;
+      top: 66%;     /*dito ginalaw position*/
+      left: 49%;    /*dito ginalaw position*/
+      }
+  #completeModal .rect4 p{
+      left: 4%;   /*dito ginalaw position*/
+      top: 33%;   /*dito ginalaw position*/
+      }
+
+  #completeModal .rect5{
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 10%;
+        top: 79%;     /*dito ginalaw position*/
+        left: 49%;    /*dito ginalaw position*/
+        }
+  #completeModal .rect5 p{
+        left: 4%;   /*dito ginalaw position*/
+        top: 35%;   /*dito ginalaw position*/
+        }
+
+  #completeModal .btn-close{
+        align-items: center;
+        justify-content: center;
+        left: 85%;    /*dito ginalaw position*/
+        top: 3%;      /*dito ginalaw position*/
+        }
+  .claim-button {
+        width: 29%;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        top: 15%;     /*dito ginalaw position*/
+        left: 68%;     /*dito ginalaw position*/
+        }
+}
+
+
+@media only screen and (max-width:412px) {
+  #spinModal .modal-dialog
+  {
+    align-items: center;
+    justify-content: center;
+    left: 29%;  /*dito ginalaw position*/
+    top: 27%;   /*dito ginalaw position*/
+    max-width: 200px;
+    height: 200px !important ;
+  }
+  #modalSorry .modal-content {
+    align-items: center;
+    justify-content: center;
+    top: 8%;    /*dito ginalaw position*/
+    left: 16%;  /*dito ginalaw position*/
+    width: 50% !important;
+  }
+  #findModal .modal-dialog
+  {
+    align-items: center;
+    justify-content: center;
+    left: 36%;  /*dito ginalaw position*/
+    top: 46%;   /*dito ginalaw position*/
+    max-width: 200px;
+    height: 200px !important ;
+  }
+  #toknModal .modal-dialog{
+    align-items: center;
+    justify-content: center;
+    top: 24%;   /*dito ginalaw position*/
+    left: 7%;  /*dito ginalaw position*/
+    
+  }
+}
+
+
+@media only screen and (max-width:390px) {
+
+  #spinModal .modal-dialog
+  {
+    align-items: center;
+    justify-content: center;
+    left: 28%;  /*dito ginalaw position*/
+    top: 23%;   /*dito ginalaw position*/
+    max-width: 200px;
+    height: 200px !important ;
+  }
+  #spinModal .modal-body {
+    align-items: center;
+    justify-content: center;
+    left: -13%;
+    top: -80%;
+    max-width: 350px;
+    height: 500px !important ;
+  }
+  #findModal .modal-dialog
+  {
+    align-items: center;
+    justify-content: center;
+    left: 35%;  /*dito ginalaw position*/
+    top: 44%;   /*dito ginalaw position*/
+    max-width: 200px;
+    height: 200px !important ;
+  }
+  #findModal .modal-body {
+    align-items: center;
+    justify-content: center;
+    margin-left: -27%;  
+    margin-top: -90%;   
+    max-width: 350px;
+    height: 500px !important ;
+  }
+  #toknModal .modal-dialog{
+    align-items: center;
+    justify-content: center;
+    top: 24%;   /*dito ginalaw position*/
+    left: 5%;  /*dito ginalaw position*/
+    
+  }
+  #completeModal .modal-dialog
+  {
+    align-items: center;
+    justify-content: center;
+    left: -8%;  /*dito ginalaw position*/
+    top: 8%;   /*dito ginalaw position*/
+  }
+}
+
+

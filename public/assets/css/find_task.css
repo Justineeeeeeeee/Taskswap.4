@@ -1,0 +1,21 @@
+.task_title{
+    color: #000;
+    width: fit-content;
+    cursor: pointer;
+    
+}
+.task_title:hover{
+    width: 100% ;
+    text-decoration: underline #20C997;
+    color: #20C997;
+    
+    
+}
+.card:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.text_style:hover{
+    color: #20C997;
+    text-decoration: underline;
+}

@@ -1,0 +1,55 @@
+.button_login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 1rem 1rem;
+    background: #186F65;
+    font-family: sans-serif;
+    color: #ffffff;
+    border-radius: 10px;
+    height: 50px;
+    border-color: #ffffff;
+    
+
+  }
+  .button_login:hover{
+    background: #ffffff;
+    color: #186F65;
+    border-color: #186F65;
+  }
+  
+
+  .button_login_google {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 1rem 1rem;
+    background: #DB4437;
+    font-family: sans-serif;
+    color: #ffffff;
+    border-radius: 10px;
+    height: 50px;
+    border-color: #ffffff;
+  }
+  .button_login_google:hover{
+    background: #ffffff;
+    color: #DB4437;
+    border-color: #DB4437;
+  }
+
+
+  .button_login_facebook {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 1rem 1rem;
+    background: #1877f2;
+    font-family: sans-serif;
+    color: #ffffff;
+    border-radius: 10px;
+    height: 50px;
+    border-color: #ffffff;
+  }
+  .button_login_facebook:hover{
+    background: #ffffff;
+    color: #1877f2;
+    border-color: #1877f2;
+  }
+  

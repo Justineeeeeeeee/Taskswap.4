@@ -1,0 +1,351 @@
+
+
+
+.image {
+    margin-top:2rem;
+    margin-left: 5rem;
+   }
+   .image2 {
+    margin-top:1rem;
+    margin-left: 90rem;
+   }
+   .info{
+     margin-top:1rem;
+     text-align: center;
+     margin-right:0.1rem;
+     color:#2A513B;
+     font-weight: bold;
+     font-size:  20px;
+     font-family: 'Poppins', sans-serif;
+   }  
+   .info1{
+     margin-top:1rem;
+     text-align: center;
+     margin-right:0.1rem;
+     color:#2A513B;
+     font-family: sans-serif;
+    
+   }  
+   .main-sidebar {
+   background-color: #81BD9C;
+   margin-top: 4.5rem;
+   position: fixed;
+  
+  
+   z-index: 1;
+}
+   .brand-link {
+   background-color: transparent; /* Set the background of the logo container to transparent */
+   color: darkcyan;
+   border: none;
+ outline: none;
+ display: flex;
+ align-items: center;
+ margin-left: -15rem;
+ 
+ 
+   }
+
+   .brand-image {
+    border-right: 1px solid #81BD9C; /* Add a border to separate the logo from the sidebar background */
+   }
+   .rating {
+   text-align: center;
+   color: #ffc107; /* Star color (yellow) */
+   font-size: 20px; /* Adjust the font size as needed */
+   }
+   .button{
+     margin-left:1rem;
+   }
+   .button1{
+     margin-left:1rem;
+     margin-top: 0.8rem;
+   }
+   .btn-custom {
+       background-color: #2A513B;
+       color: white;
+   }
+  
+   .rounded-square {
+    width: 190%; /* Adjust the width as needed */
+    height: 180px; /* Adjust the height as needed */
+    border: 2px solid #81BD9C;
+    border-radius: 15px; /* Adjust the border-radius to achieve almost round corners */
+    margin-top: 10px; /* Adjust the margin-top as needed */
+    margin-left: 40px;
+    background: none; /* No fill */
+   }
+   .square-text {
+    position: absolute;
+    top: 20px; /* Adjust the top position as needed */
+    left: 60px; /* Adjust the left position as needed */
+    color: #1F548B;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+   }
+   .wallet {
+    position: absolute;
+    top: 40px; /* Adjust the top position as needed */
+    left: 87%; /* Adjust the left position as needed */
+    color: #1F548B;
+    font-weight: bold;
+    font-size: 40px;
+   }
+   .token-images {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   margin-top: 85px; /* Adjust the margin-top as needed */
+   margin-left: 15%;
+   }
+
+   .token {
+   width: 35px; /* Adjust the width of each coin as needed */
+   height: auto;
+   margin-right: 9%; /* Adjust the margin between coins as needed */
+   }
+   .check{
+     color: white;
+     margin-top: 0.8rem;
+     margin-left: 40%;
+     background:#62AC83;
+     border-color: #62AC83;
+     border-radius: 20px;
+   }
+   .check:hover{
+    color: #62AC83;
+    background:#FFFFFF;
+  }
+   .acc{
+    color: #1F548B;
+    font-weight: bold;
+    margin-left: 3%;
+   }
+   .rounded-square1{
+    width: 94.5%; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
+    border: 2px solid #81BD9C;
+    border-radius: 15px; /* Adjust the border-radius to achieve almost round corners */
+    margin-top: 5px; /* Adjust the margin-top as needed */
+    background: none; /* No fill */
+    margin-left: 40px;
+    
+    
+   }
+   .rounded-square2{
+    width: 94.5%; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
+    border: 2px solid #81BD9C;
+    border-radius: 15px; /* Adjust the border-radius to achieve almost round corners */
+    margin-top: 5px; /* Adjust the margin-top as needed */
+    background: none; /* No fill */
+    margin-left: 40px;
+   }
+   .rounded-square3{
+    width: 94.5%; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
+    border: 2px solid #81BD9C;
+    border-radius: 15px; /* Adjust the border-radius to achieve almost round corners */
+    margin-top: 5px; /* Adjust the margin-top as needed */
+    background: none; /* No fill */
+    margin-left: 40px;
+   }
+   .trophy1{
+     height:auto;
+     width:40px;
+     margin-top: 2px;
+     margin-bottom: 2px;
+   }
+   
+   .award3{
+    top: 56%; /* Adjust the top position as needed */
+    left: 20%; /* Adjust the left position as needed */
+    color: #1F548B;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+   }
+   .floating-icon { /*sa chat with dev*/
+   position: fixed;
+   top: 13%; 
+   right:2%; 
+   background-color: #B1C8E3; 
+   border-radius: 50%;
+   padding: 10px;
+   cursor: pointer;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .floating-icon .icon {
+   width: 30px; 
+   height: 30px; 
+   display: block;
+   margin: auto;
+ }
+ 
+ .floating-icon:hover::after {
+   content: "Inbox";
+   position: absolute;
+   right: 120%; 
+   top: 20%;
+   background-color: #007bff; 
+   color: #fff; 
+   border-radius: 5px;
+   padding: 5px;
+   white-space: nowrap;
+ }
+ .desc3{
+    top: 55.5%; /* Adjust the top position as needed */
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-left: 5px;
+ }
+ /* Dropdown Button */
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.button_card {
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  border: 2px;
+  color: #ffffff;
+  background: #62AC83;
+  border-radius: 15px;
+  height: 50px;  
+  width: 200px;
+  margin-left: 10%;
+  
+}
+
+.button_card:hover {
+background-color: #ffffff;
+color: #62AC83;
+border-style: solid;
+border-color: #62AC83;
+transform: translateY(4px);
+}
+
+.box{
+height: 50px; 
+display: flex; 
+cursor: pointer;
+padding: 10px 20px;
+background: ■#fff;
+border-radius: 30px;
+align-items: center;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.box:hover input{
+width: 700px;
+}
+
+.box input{ 
+  width: 0;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  transition: 0.8s;
+  background: transparent;
+  }
+  .box a .fas{
+  color: #62AC83; font-size: 18px;
+  }
+
+
+ @media (max-width: 1080px) {
+ .image {
+   margin-left: 2rem;
+ }
+
+ .image2 {
+   margin-left: 5rem;
+ } 
+
+ .main-sidebar {
+   background-color: #81BD9C;
+   width: 250px; /* Adjust the sidebar width as needed */
+ }
+
+ .button {
+   margin-left: 0.5rem;
+ }
+
+ .button1 {
+   margin-left: 0.5rem;
+   margin-top: 0.8rem;
+ }
+
+ .rounded-square,
+ .rounded-square1,
+ .rounded-square2,
+ .rounded-square3 {
+   width: 100%; /* Adjust the width for responsiveness */
+   margin-left: 0;
+ }
+
+ .token-images {
+   margin-left: 5%;
+ }
+
+ .floating-icon {
+   right: 2%;
+ }
+ .award1,
+ .award2,
+ .award3 {
+   margin-left: 5%; /* Adjust the left margin as needed */
+ }
+
+
+ .desc1,
+ .desc2,
+ .desc3 {
+   margin-left: 5%;
+   font-size: 12px;
+ }
+ 
+
+
+ }

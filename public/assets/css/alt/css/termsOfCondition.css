@@ -1,0 +1,74 @@
+.terms-box{ max-width: 460px;
+    background-color: #fff;
+    font-family:
+    "Montserrat";
+    padding: 60px 30px;
+    border-color: #111;
+    border: 2px;
+}
+.terms-text{
+    padding: 0 20px;
+    height: 400px;
+    overflow-y: auto;
+    font-size: 14px;
+    font-weight: 500;
+    color: #111;
+    border: 10px;
+    border-color: #111;
+}
+.terms-text::-webkit-scrollbar{
+    width: 2px;
+    background-color: #282828;
+}
+.terms-text::-webkit-scrollbar-thumb{
+    background-color: #62AC83;
+}
+.terms-text h2{
+    text-transform: uppercase;
+}
+.terms-box h4 span{
+    color:
+    #62AC83;
+}
+.h2_text{
+    color: #111;
+}
+.h4_text{
+    color: #111;
+}
+.button_Agree {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 1rem 1rem;
+    background: #186F65;
+    font-family: sans-serif;
+    color: #ffffff;
+    border-radius: 10px;
+    height: 50px;
+    border-color: #ffffff;
+    
+
+  }
+  .button_Agree:hover{
+    background: #ffffff;
+    color: #186F65;
+    border-color: #186F65;
+  }
+  .button_Decline{
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 1rem 1rem;
+    background: #000000;
+    font-family: sans-serif;
+    color: #ffffff;
+    border-radius: 10px;
+    height: 50px;
+    border-color: #ffffff;
+    
+
+  }
+  .button_Decline:hover{
+    background: #ffffff;
+    color: #000000;
+    border-color: #000000;
+  }

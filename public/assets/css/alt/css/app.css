@@ -1,0 +1,323 @@
+
+
+:root{
+  --body: #ffffff;
+  --custom: #186F65; /* Custom color for paragraph and text */
+  --color:#ffffff;
+
+}
+body {
+    padding-top: 3rem; /*sa carousel*/
+    background: var(--body)/*root color for body */
+  }
+  .btn-outline{
+    color: #62AC83; /*color ng get started text*/
+    border-color: #62AC83; /*color ng get started borded*/
+    font-family: 'sans-serif';
+    margin-top: 2px;
+    width: auto;
+  }
+  .btn-special{
+    color: #FFFFFF; /*color ng get started text*/
+    border-color: #62AC83; /*color ng get started borded*/
+    font-family: 'sans-serif';
+    margin-top: 2px;
+    width: auto;
+    border-radius: 10px;
+    background-color: #62AC83;
+    border-color: #62AC83;
+  }
+  .btn-special:hover{
+    color: #62AC83; /*color ng get started text*/
+    border-color: #62AC83; /*color ng get started borded*/
+    background-color: #FFFFFF;
+  }
+  .navbar-brand{
+    margin-left: 0.8rem; /*sa logo*/
+  }
+  .btn-inline{
+    background-color: #186F65;
+    border-color: #186F65; /*color ng get started borded*/
+    color: #fff;
+
+  }
+  .btn-inline:hover { /*sa get started button*/
+    color: #62AC83; /*color ng get started text*/
+    border-color: #62AC83; /*color ng get started borded*/
+
+  }
+
+  .btn-outline:hover { /*sa get started button*/
+    color: #fff;
+    background-color: #62AC83;
+    border-color: #62AC83;
+  }
+
+
+  .btn-login{
+    color: #186F65;
+    border-color: #186F65;
+    margin-left: 1rem;
+    font-family: 'sans-serif';
+  }
+  .btn-login:hover {
+    color: #fff;
+    background-color: #04364A;
+    border-color: #04364A;
+  }
+
+
+  .nav-link {
+    color: #186F65; /*navbar text*/
+    font-family: 'sans-serif';
+
+  }
+  .d-flex .nav-link{ /*navbar text*/
+    font-family: 'sans-serif';
+    margin-top:0.3rem;
+    color: #186F65;
+
+  }
+  .nav-item .nav-link:not(.active) {
+    color: #186F65
+  }
+
+  /* position and height ng  mismong carousel */
+  .carousel-item {
+    height: 34rem;
+    margin-left: 14.5rem;
+  }
+  .carousel-indicators button {
+    width: 0.4rem; /*change rin w and h sa .active pati not active*/
+    height: 0.4rem; /*change rin w and h sa .active pati not active*/
+    border-radius:50%;
+    background-color: #186F65;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+    border: 0.5rem;
+  }
+
+  .carousel-indicators .active {
+    background-color: #186F65;
+    border-color: #186F65;
+    border: 5rem;
+    border-radius:50%;
+    width: 0.4rem; /*change rin w and h sa .active pati not active*/
+    height: 0.4rem; /*change rin w and h sa .active pati not active*/
+  }
+  .carousel-indicators button:not(.active) {
+    background-color: #186F65;
+    border-color: #186F65;
+    border: 5rem;
+    border-radius:50%;
+    width: 0.4rem; /*change rin w and h sa .active pati not active*/
+    height: 0.4rem; /*change rin w and h sa .active pati not active*/
+
+  }
+  /*image sa carousel and h2 and paragraph*/
+/*una*/
+  .custom1{
+    font-family: 'Poppins';
+
+
+
+    text-align: center;
+    margin-top:4rem;
+    top:50%;
+    transform: translate(48%, 8%);
+    color: #186F65;
+   }
+   .custom1 p{
+    font-family: 'sans-serif';
+    text-align: left;
+    transform: translate(25%, 8%);
+    font-size: large;
+
+   }
+   .carousel-item .custom-img1 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-70%, -60%);
+    max-width: 70%; /*image doesn't exceed the container width */
+    max-height: 70%; /* image doesn't exceed the container height */
+    width: auto; /* image adjusts its width */
+    height: auto; /* image adjusts its height */
+}
+/*pangalawa*/
+.custom2{
+  font-family: 'Poppins';
+  text-align: center;
+  margin-top:4rem;
+  transform: translate(15%, 50%);
+  color: #186F65;
+ }
+ .custom2 p{
+  font-family: 'sans-serif';
+  text-align: left;
+  transform: translate(22%, 1%);
+ }
+ .carousel-item .custom-img2 {
+  position: absolute;
+  top: 60%;
+  left: 43%;
+  transform: translate(-64%, -63%);
+  max-width: 100%; /*image doesn't exceed the container width */
+  max-height: 100%; /* image doesn't exceed the container height */
+  width: auto; /* image adjusts its width */
+  height: auto; /* image adjusts its height */
+
+}
+/*pangatlo*/
+  .custom3{
+    font-family: 'Poppins';
+    text-align: center;
+    margin-top:4rem;
+    top:50%;
+    left: 50%; /* Adjust left value as needed */
+    color: #186F65;
+   }
+   .custom3 p{
+    font-family: 'sans-serif';
+    text-align: left;
+    left: 70%; /* Adjust left value as needed */
+    transform: translate(26%, 8%);
+   }
+   .carousel-item .custom-img3 {
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    transform: translate(-60%, -60%);
+    max-width: 70%; /*image doesn't exceed the container width */
+    max-height: 70%; /* image doesn't exceed the container height */
+    width: auto; /* image adjusts its width */
+    height: auto; /* image adjusts its height */
+}
+
+
+  .floating-icon { /*sa chat with dev*/
+    position: fixed;
+    bottom: 60px;
+    right: 40px;
+    background-color: #186F65;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+
+  .p_white{
+    color: white;
+  }
+
+  .btn-outline_Hero{
+    color: #FFFFFF; /*color ng get started text*/
+    border-color: #04364A; /*color ng get started borded*/
+    font-family: 'sans-serif';
+    background: #04364A;
+    margin-top: 2px;
+    width: auto;
+  }
+  .Citizen_text{
+    color: white;
+  }
+
+    
+  .btn-outline_Citizen{
+    color: #FFFFFF; /*color ng get started text*/
+    border-color: #04364A; /*color ng get started borded*/
+    font-family: 'sans-serif';
+    background-color: #186F65;
+    margin-top: 2px;
+    width: auto;
+  }
+  .btn-outline_Citizen:hover{
+  transform: translateY(-10px);
+  }
+  .btn-outline_Hero:hover{
+    transform: translateY(-10px);
+    }
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+
+  /* ito yung sa gamified and blockchain deets */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-family: 'Poppins';
+  }
+
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+    font-family: 'sans-serif';
+    color:var(--custom);
+  }
+
+  .col-lg-4 .fw-normal{
+    margin-top: 20px;
+    font-family: 'Poppins';
+    color:var(--custom);
+  }
+  .highlight-text{
+    color: #62AC83;
+    font-weight: 500;
+  }
+  .image_landing{
+    width:max-content;
+    height:fit-content;
+    margin-left: 70%;
+    margin-top: -20%;
+  
+  }
+  .text_text{
+    color:#186F65; 
+    font-weight:300;
+    font-size:100px
+  }
+  .container_size{
+    height: 60vh;
+  }
+  /* Featurettes
+  ------------------------- */
+
+  .featurette-divider {
+    margin: 2rem 0;
+    border-top: 3px solid #186F65;
+  }
+
+  .card_section4 {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card_section4:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container_card {
+    padding: 2px 16px;
+
+  }.card_section4 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    height: 425px;
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+  .img_card {
+    border-radius: 5px 5px 0 0;
+  }
+
+
+@media only screen and (min-width:500px) {
+  form{
+    width: 100% !important;
+  }
+
+}
+
